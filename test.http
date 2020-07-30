@@ -1,0 +1,24 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "firstName": "Steve",
+  "lastName": "Rogers",
+  "age": 100
+}
+###
+
+GET http://localhost:3000/users
+
+###
+
+DELETE http://localhost:3000/users/1f906f0e-6af3-45bd-b284-680e7c696826
+
+###
+
+PATCH http://localhost:3000/users/1f906f0e-6af3-45bd-b284-680e7c696826
+Content-Type: application/json
+
+{
+  "age": 800
+}
